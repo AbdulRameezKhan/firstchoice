@@ -1,0 +1,21 @@
+.primary-btn {
+    border: 1px solid;
+    border-radius: 30px;
+    background: $btn_primary;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 60px;
+    &:hover {
+        background: #FFFFFF;
+        border: 1px solid #000080;
+        color: #000080 !important;
+    }
+}

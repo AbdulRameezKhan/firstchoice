@@ -1,0 +1,233 @@
+/**** Fonts ***/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "Itc";
+  src: url("../fonts/ITC/ITC Avant Garde Gothic Std Bold.otf");
+}
+
+@font-face {
+  font-family: "Itc-regular";
+  src: url("../fonts/ITC/ITC Avant Garde Gothic Std Book.otf");
+}
+
+/**** Colors ***/
+/**** Text Color ***/
+/**** Button Color ***/
+/**** Body Color ***/
+/**** Media Queries***/
+/**** Media Quries ***/
+/**** Button ***/
+.primary-btn {
+  border: 1px solid;
+  border-radius: 30px;
+  background: linear-gradient(90.24deg, #484961 2.57%, #202072 99.54%);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 60px;
+}
+
+.primary-btn:hover {
+  background: #FFFFFF;
+  border: 1px solid #000080;
+  color: #000080 !important;
+}
+
+/**** Headings and Text***/
+/**** Heading Tags ***/
+h1 {
+  font-family: 'Itc';
+  color: #1B1D1F;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  h1 {
+    font-size: 43px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    font-size: 65px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  h1 {
+    font-size: 68px;
+  }
+}
+
+h2 {
+  font-family: 'itc';
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 114.52%;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #1B1D1F;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  h2 {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  h2 {
+    font-size: 50px;
+  }
+}
+
+h3 {
+  font-family: 'itc';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #1B1D1F;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+
+h4 {
+  font-family: "Itc-regular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  h4 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h4 {
+    font-size: 24px;
+  }
+}
+
+p {
+  font-family: "Itc-regular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  color: #1D1E20;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+/**** Hero Main Section***/
+.hero-main-section {
+  background: url(../images/main-hero-bg.png);
+}
+
+.hero-main-section .hero-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 737px;
+  margin: auto;
+}
+
+.hero-main-section .hero-heading h4 {
+  color: #1E1F73;
+}
+
+.hero-main-section .content-box h1 {
+  text-align: center;
+  max-width: 929px;
+  margin: auto;
+}
+
+.hero-main-section .content-box p {
+  text-align: center;
+}
+
+.hero-main-section .mobile-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 445px;
+  margin: auto;
+}
+
+.hero-main-section .hero-logo-list {
+  text-align: center;
+}
+
+.hero-main-section .hero-span {
+  text-align: center;
+}
+
+.hero-main-section .hero-span span {
+  color: #000080;
+  font-family: 'itc';
+}
+
+.hero-main-section .hero-image {
+  text-align: center;
+}
+
+/**** Left Image Section***/
+.left-image-content .content-box {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
